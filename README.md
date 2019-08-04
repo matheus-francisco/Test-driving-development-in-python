@@ -52,9 +52,24 @@ def test_string_length():
 * Documents what the code is doing.
 * Drives good object oriented design.
 
-> TDD beginmomgs
+> TDD beginnings
 > Created by Kent Beck in the 1990's as part of the Extreme Programming software development process.
 > He wrote the first TDD unit testing framework in Smalltalk called Sunit.
+
+
+## TDD Workflow (RED, GREEN, REFACTOR)
+
+* TDD has the following phases in its work flow:
+* Write a failing unit test (the RED phase)
+* Write just enough production code to make that  test pass (the GREEN phase)
+* Refactor the unit test and the production code to make it clean ( the REFACTOR phase ).
+* Repeat until the feature is complete.
+
+## 3 laws of TDD (by Uncle Bob's)
+
+* You may not write any production code until you have written a failing unit test.
+* You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+* You may not write more production code than is sufficient to pass the currently failing unit test.
 
 
 
