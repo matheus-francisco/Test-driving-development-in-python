@@ -1,5 +1,3 @@
-import os
-
 def fizz_buzz(value):
     if is_multiple(value, 3):
         if is_multiple(value, 5):
