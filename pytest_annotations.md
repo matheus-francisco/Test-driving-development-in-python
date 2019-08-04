@@ -35,4 +35,8 @@ def teardown_method():
 * This help to reduce code duplicate
 * look into file "test_example_class.py and test_example_setup_teardown.py"
 
+## Test Fixtures
+```
+@pytes.fixture()
+```
 
