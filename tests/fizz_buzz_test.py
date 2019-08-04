@@ -1,5 +1,6 @@
 import pytest
-from functions.fizz_buzz import *
+from functions.fizz_buzz import check_fizz_buzz
+
 """ Use cases
 
 - Can I call FizzBuzz
@@ -13,11 +14,8 @@ from functions.fizz_buzz import *
 """
 
 
-
-
-
 def test_return_1_with_1_passed_in():
-    check_fizz_buzz(1, "1")
+    check_fizz_buzz(1, "3")
 
 
 def test_returns_2_with_passed_in():
