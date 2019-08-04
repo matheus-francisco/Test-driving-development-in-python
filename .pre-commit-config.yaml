@@ -9,7 +9,7 @@
     rev: stable
     hooks:
     - id: black
-      language_version: python3.6
+      language_version: python3.7
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
     sha: v1.0.3
     hooks:
