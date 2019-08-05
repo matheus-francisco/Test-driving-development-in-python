@@ -1,8 +1,8 @@
 """
 x Can create instance of Checkout class
+x Can add item price
 TODO
 
-- Can add item price
 - Can add an item
 - Can calculate the current total
 - Can add multiple items and get correct total
@@ -14,6 +14,6 @@ TODO
 from functions.checkout import Checkout
 
 
-def test_can_instantiate_checkout():
+def test_can_add_item_price():
     co = Checkout()
-    co()
+    co.add_item_price("a", 1)
