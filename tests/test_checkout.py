@@ -17,3 +17,8 @@ from functions.checkout import Checkout
 def test_can_add_item_price():
     co = Checkout()
     co.add_item_price("a", 1)
+
+
+def test_can_add_item():
+    co = Checkout()
+    co.add_item("a")
