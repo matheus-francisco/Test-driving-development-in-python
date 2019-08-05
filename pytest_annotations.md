@@ -40,3 +40,9 @@ def teardown_method():
 @pytes.fixture()
 ```
 
+* Test Fixtures can have the following four different scopes which specify how often the fixture will be called:
+
+* function - run the fixture once for each testing
+* class - run the fixture once for each class of Tests
+* module - run once when the module goes in scopes
+* session - the fixture runs once when pytest start
