@@ -46,3 +46,29 @@ def teardown_method():
 * class - run the fixture once for each class of Tests
 * module - run once when the module goes in scopes
 * session - the fixture runs once when pytest start
+
+## What are test doubles?
+
+* Almost all code depends (i.e. collaborates) with other parts of the
+system.
+* Those other parts of the system are not always easy to replicate in
+the unit test environment or would make tests slow if used directly.
+* Test doubles are objects that are used in unit tests as replacements
+to the real production system collaborators.
+
+### Types of test doubles
+* Dummy - Objects that can be passed around as necessary but do
+not have any type of test implementation and should never be used.
+
+* Fake - These object generally have a simplified functional
+implementation of a particular interface that is adequate for testing
+but not for production.
+
+* Stub - These objects provide implementations with canned answers
+that are suitable for the test.
+
+* Spies - These objects provide implementations that record the
+values that were passed in so they can be used by the test.
+
+* Mocks - These objects are pre-programmed to expect specific
+calls and parameters and can throw exceptions when necessary

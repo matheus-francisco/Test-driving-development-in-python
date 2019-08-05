@@ -1,15 +1,13 @@
 """
 x Can create instance of Checkout class
 x Can add item price
-TODO
-
 x Can add an item
 x Can calculate the current total
 x Can add multiple items and get correct total
-- Can add discount rules
-- Can add discount rules
-- Can apply discount rules to the total
-- Exception is throw for item added without a price
+x Can add discount rules
+x Can add discount rules
+x Can apply discount rules to the total
+x Exception is throw for item added without a price
 """
 import pytest
 from functions.checkout import Checkout
